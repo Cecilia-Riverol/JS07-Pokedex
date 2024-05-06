@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+}
+
+.container{
+background-size: contain;
+}
+
+.cards {
+    margin: auto;
+    display: grid;
+    border-radius: 30px;
+    background-color: #fff9ed;
+    border: ridge 20px;
+}
+
+input,button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+h1{
+    color: #7c6243;
+    font-size: 90px;
+    font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.poke-img{
+    transition: 0.5s;
+}
+.poke-img:hover{
+transform: scale(1.15);
+}
+
+.intro{
+    color: #8b7152;
+    background-color: #E2DFD0;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom:15px;
+    border: ridge 15px;
+}
+
+.pk-error{
+    font-size: 30px;
+}
+p{
+    font-size: 25;
+}
+
+ul{
+    list-style-type: none;
+}

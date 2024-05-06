@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Buscador de pokemones</h1>
+        <div class="intro">
+            <p>Bienvenido al buscador de pokemones, para comenzar, por favor coloca el número o el nombre de tu pokemon en el siguiente recuadro</p>
+            <input type="text" id="pokemonInput1" placeholder="Ingresa el nombre o el número de tu pokemon">
+            <button onclick="buscarPokemon(1)">Buscar Pokemon</button>
+        </div>
+
+        <div class="cards">
+            <div class="card-two">
+                <!--DIV para colocar todaq la informacion del pokemon-->
+                <div id="pokemonInfo1">
+                </div>
+            </div>            
+        </div>
+    </div>
+   
+<script src="./script.js"></script>
+</body>
+</html>
